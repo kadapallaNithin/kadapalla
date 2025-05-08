@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glowing - Reveal The Beauty of Skin</title>
+  <title>Kadapalla - One stop solution for Construction, Agriculture and Diary</title>
 
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -23,11 +23,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"> -->
+  <style>
+    /* .kalam-light {
+      font-family: "Kalam", cursive;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    .kalam-regular {
+      font-family: "Kalam", cursive;
+      font-weight: 400;
+      font-style: normal;
+    } */
+
+    .kalam-bold {
+      font-family: 'Playfair Display', serif;
+      /* font-family: "Kalam", cursive; */
+      font-weight: 700;
+      font-style: normal;
+    }
+    .company-name{
+      /* border-radius: 5px;margin: 5px;padding: 10px;
+      background-color: #209cee;
+      color: #feffff; */
+      color: #209cee;
+      font-size: xx-large;
+    }
+    .text-end{
+      text-align: end;
+    }
+    .text-center{
+      text-align: center;
+    }
+
+  </style>
 
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <!-- <link rel="preload" as="image" href="./assets/images/logo.png"> -->
   <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
@@ -44,7 +79,7 @@
 
     <div class="alert">
       <div class="container">
-        <p class="alert-text">Free Shipping On All U.S. Orders $50+</p>
+        <p class="alert-text">Transport Available in & around Banswada</p>
       </div>
     </div>
 
@@ -66,7 +101,9 @@
         </div>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+          <!-- <img src="./assets/images/logo/logo.svg" width="179" height="26" alt="Kadapalla"> -->
+          <!-- <img src="./favicon-16x16.png" width="179" height="26" alt="Kadapalla"> -->
+          <p class="kalam-bold company-name">Sri Laxmi Venkateswara Traders</p>
         </a>
 
         <div class="header-actions">
@@ -94,16 +131,16 @@
         <nav class="navbar">
           <ul class="navbar-list">
 
-            <li>
+            <!-- <li>
               <a href="#home" class="navbar-link has-after">Home</a>
+            </li> -->
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Categories</a>
             </li>
 
             <li>
-              <a href="#collection" class="navbar-link has-after">Collection</a>
-            </li>
-
-            <li>
-              <a href="#shop" class="navbar-link has-after">Shop</a>
+              <a href="#shop" class="navbar-link has-after">Products</a>
             </li>
 
             <li>
@@ -135,7 +172,7 @@
 
       <div class="wrapper">
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Kadapalla">
         </a>
 
         <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -183,7 +220,7 @@
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="hero" data-section>
+      <!-- <section class="section hero" id="home" aria-label="hero" data-section>
         <div class="container">
 
           <ul class="has-scrollbar">
@@ -260,7 +297,7 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -278,9 +315,10 @@
             <li>
               <div class="collection-card has-before hover:shine">
 
-                <h2 class="h2 card-title">Summer Collection</h2>
+                <h2 class="h2 card-title">Construction</h2>
 
-                <p class="card-text">Starting at $17.99</p>
+                <p class="card-text text-end"></p>
+                <!-- Cement & Iron -->
 
                 <a href="#" class="btn-link">
                   <span class="span">Shop Now</span>
@@ -288,43 +326,45 @@
                   <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                 </a>
 
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-1.jpg')"></div>
+                <div class="has-bg-image" style="background-image: url('./assets/images/categories/cement-iron.png')"></div>
 
               </div>
             </li>
 
             <li>
-              <div class="collection-card has-before hover:shine">
+              <div style="background-color: #d9dec0;" class="collection-card has-before hover:shine">
 
-                <h2 class="h2 card-title">What’s New?</h2>
+                <h2 class="h2 card-title">Agriculture</h2>
 
-                <p class="card-text">Get the glow</p>
+                <p class="card-text"></p>
+                <!-- Fertilizers, Pesticides, Insecticides and Seeds -->
 
                 <a href="#" class="btn-link">
-                  <span class="span">Discover Now</span>
+                  <span class="span">Shop Now</span>
 
                   <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                 </a>
 
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-2.jpg')"></div>
+                <div class="has-bg-image" style="background-image: url('./assets/images/categories/agro.png')"></div>
 
               </div>
             </li>
 
             <li>
-              <div class="collection-card has-before hover:shine">
+              <div style="background-color: whitesmoke;" class="collection-card has-before hover:shine">
 
-                <h2 class="h2 card-title">Buy 1 Get 1</h2>
+                <h2 class="h2 card-title">Diary</h2>
 
-                <p class="card-text">Starting at $7.99</p>
+                <p class="card-text"></p>
+                <!-- Milk & Curd -->
 
                 <a href="#" class="btn-link">
-                  <span class="span">Discover Now</span>
+                  <span class="span">In process</span>
 
                   <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                 </a>
 
-                <div class="has-bg-image" style="background-image: url('./assets/images/collection-3.jpg')"></div>
+                <div class="has-bg-image" style="background-image: url('./assets/images/categories/diary.png')"></div>
 
               </div>
             </li>
@@ -342,7 +382,7 @@
         - #SHOP
       -->
 
-      <section class="section shop" id="shop" aria-label="shop" data-section>
+      <!-- <section class="section shop" id="shop" aria-label="shop" data-section>
         <div class="container">
 
           <div class="title-wrapper">
@@ -686,13 +726,13 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
-      <section class="section shop" id="shop" aria-label="shop" data-section>
+      <!-- <section class="section shop" id="shop" aria-label="shop" data-section>
         <div class="container">
 
           <div class="title-wrapper">
-            <h2 class="h2 section-title">Under $25</h2>
+            <h2 class="h2 section-title">Trending Products</h2>
 
             <a href="#" class="btn-link">
               <span class="span">Shop All Products</span>
@@ -1032,7 +1072,7 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -1042,7 +1082,7 @@
         - #BANNER
       -->
 
-      <section class="section banner" aria-label="banner" data-section>
+      <!-- <section class="section banner" aria-label="banner" data-section>
         <div class="container">
 
           <ul class="banner-list">
@@ -1080,7 +1120,7 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -1090,10 +1130,10 @@
         - #FEATURE
       -->
 
-      <section class="section feature" aria-label="feature" data-section>
+      <!-- <section class="section feature" aria-label="feature" data-section>
         <div class="container">
 
-          <h2 class="h2-large section-title">Why Shop with Glowing?</h2>
+          <h2 class="h2-large section-title">Why Shop with Kadapalla?</h2>
 
           <ul class="flex-list">
 
@@ -1148,7 +1188,7 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -1157,7 +1197,7 @@
       <!-- 
         - #OFFER
       -->
-
+<!-- 
       <section class="section offer" id="offer" aria-label="offer" data-section>
         <div class="container">
 
@@ -1197,7 +1237,7 @@
           </div>
 
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -1207,7 +1247,7 @@
         - #BLOG
       -->
 
-      <section class="section blog" id="blog" aria-label="blog" data-section>
+      <!-- <section class="section blog" id="blog" aria-label="blog" data-section>
         <div class="container">
 
           <h2 class="h2-large section-title">More to Discover</h2>
@@ -1280,7 +1320,7 @@
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
     </article>
   </main>
@@ -1306,16 +1346,19 @@
 
           <li>
             <p class="footer-list-text">
-              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+              <!-- Find a location nearest you. See <a href="#" class="link">Our Stores</a> -->
+              Opposite new market road, Tadkole road, Banswada, Kamareddy, Telangana, India - 503187
             </p>
           </li>
 
           <li>
-            <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+            <a href="tel:+919133213331" target="_blank" aria-label="Call Us @ 9133213331">
+              <p class="footer-list-text bold">+91 9133213331</p>
+            </a>
           </li>
 
           <li>
-            <p class="footer-list-text">hello@domain.com</p>
+            <p class="footer-list-text">SriLaxmiVenTraders@gmail.com</p>
           </li>
 
         </ul>
@@ -1391,7 +1434,7 @@
 
       </div>
 
-      <div class="footer-bottom">
+      <!-- <div class="footer-bottom">
 
         <div class="wrapper">
           <p class="copyright">
@@ -1428,12 +1471,13 @@
         </div>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Kadapalla">
+           <p>Sri Laxmi Venkateswara Traders</p>
         </a>
 
         <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
 
-      </div>
+      </div> -->
 
     </div>
   </footer>
