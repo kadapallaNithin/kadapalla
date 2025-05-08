@@ -188,7 +188,12 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+.mb-3{
+  margin-bottom: 30px;
+}
+.blur-3{
+  filter: blur(3px);
+}
 .h1,
 .h2,
 .h3,
@@ -407,6 +412,16 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+.header-top .logo{
+  color: #209cee;
+  font-size: medium;
+}
+.text-end{
+  text-align: end;
+}
+.text-center{
+  text-align: center;
 }
 
 .nav-open-btn {
@@ -1008,7 +1023,7 @@ body {
   .alert { padding-block: 8px; }
 
   .header-top .container { padding-inline: 30px; }
-
+  .header-top .logo{ font-size: x-large; }
 
 
   /**
@@ -1253,6 +1268,7 @@ body {
   .header-top:is(.active, .header-hide) { all: unset; }
 
   .header-top .container { flex-wrap: wrap; }
+  .header-top .logo{ font-size: xx-large; }
 
   .search-field {
     width: 270;
